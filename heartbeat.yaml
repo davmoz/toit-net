@@ -1,0 +1,8 @@
+# Description of an app specification file using YAML syntax.
+
+name: HeartbeatApp
+entrypoint: heartbeat.toit
+triggers:
+  on_boot: true
+  on_install: true
+  on_interval: 60s
